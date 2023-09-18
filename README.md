@@ -1,19 +1,27 @@
 # ledger-cli-query
 My ledger-cli queries.
 
+## Links
+
+- [Ledger-cli Documentation](https://ledger-cli.org/doc/ledger3.html)
 
 ## Filters
+
+Account AND Payee, Sort by Date, for period Year 2023, Sum by Month
+```
+ledger reg -l 'account =~  /stroski:gos:prosti-čas/ and payee =~ /LOTERIJA/' -S date -p 2023 -M
+```
 
 ### Payee
 
 Filter for 1 payee MERKUR
 ```
-ledger reg -d "payee =~ /MERKUR/" 
+ledger reg -l "payee =~ /MERKUR/" 
 ```
 
 Filter for 2 payees MERKUR OR SPAR
 ```
-ledger reg -d "payee =~ /MERKUR|SPAR/" 
+ledger reg -l "payee =~ /MERKUR|SPAR/" 
 ```
 
 Payee MERKUR in account material.
