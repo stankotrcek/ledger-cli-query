@@ -83,6 +83,14 @@ ledger reg sredstva:denar:A -l "any(account =~ /sredstva:denar:B/)"
 ledger bal  -l "commodity == 'HRK'"
 ```
 
+### Format output
+
+### Register
+
+```
+--format "%d %A %15t %T %N \n"
+```
+
 ### Capital Gains
 
 - https://groups.google.com/g/ledger-cli/c/5De9q-QXxZM/m/PPd6WGAABAAJ
