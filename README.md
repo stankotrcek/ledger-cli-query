@@ -88,7 +88,7 @@ ledger bal  -l "commodity == 'HRK'"
 ### Register
 
 ```
---format "%d %A %15t %T %N \n"
+--format "%d %A %16t %16T %N \n"
 ```
 
 ### Capital Gains
