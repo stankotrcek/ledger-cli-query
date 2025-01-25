@@ -4,6 +4,7 @@ My ledger-cli queries.
 ## Links
 
 - [Ledger-cli Documentation](https://ledger-cli.org/doc/ledger3.html)
+- [Booklet](https://leanpub.com/personal-accounting-in-ledger/)
 
 ## Filters
 
